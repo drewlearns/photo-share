@@ -1,0 +1,22 @@
+{
+  "name": "photo-share",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewlearns/photo-share.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewlearns/photo-share/issues"
+  },
+  "homepage": "https://github.com/drewlearns/photo-share#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
