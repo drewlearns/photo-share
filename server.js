@@ -1,4 +1,4 @@
-const { response } = require('express');
+const { response, application } = require('express');
 const express = require('express');
 const app = new express();
 const db = require('./models');
@@ -7,6 +7,13 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json())
 app.use(express.static('public')) 
 app.set("view engine", "ejs")
+
+const PhotosRouter = require('./routes/PhotosRouter')
+const UsersRouter = require('./routes/UsersRouter')
+const CommentsRouter = require('./routes/CommentsRouter')
+app.use('/images', PhotosRouter)
+app.use('/comments', CommentsRouter)
+app.use('/users', UsersRouter)
 
 //db
 const sqlPort = 3307; // 3306 or 3307
