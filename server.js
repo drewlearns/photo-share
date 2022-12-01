@@ -27,7 +27,7 @@ app.use('/users', UsersRouter)
 app.use('/', PageRouter)
 
 //db
-const sqlPort = 3307; // 3306 or 3307
+const sqlPort = 3306; // 3306 or 3307
 db.sequelize
     .sync()
     .then(()=>{
