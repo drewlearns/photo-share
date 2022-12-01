@@ -14,7 +14,7 @@ app.listen(port, () => {
 });
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
-const sqlPort = 3306;
+const sqlPort = 3307;
 // set the view engine to ejs
 app.set("view engine", "ejs");
 global.loggiedIn = null;
