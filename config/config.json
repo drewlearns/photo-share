@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "WhB6v3gP8coMj239",
-    "password": "ITRC6vLMGVctwiUz",
+    "username": "9IzX5j0AhnI9wrJx",
+    "password": "mamrDsd6UKqUBjiu",
     "database": "mymariadb",
-    "host": "mymariadb-4ong4-mariadb.mymariadb-4ong4.svc.cluster.local",
+    "host": "mymariadb-qujjz-mariadb.mymariadb-qujjz.svc.cluster.local",
     "dialect": "mariadb"
   },
   "test": {
-    "username": "WhB6v3gP8coMj239",
-    "password": "ITRC6vLMGVctwiUz",
+    "username": "9IzX5j0AhnI9wrJx",
+    "password": "mamrDsd6UKqUBjiu",
     "database": "mymariadb",
-    "host": "mymariadb-4ong4-mariadb.mymariadb-4ong4.svc.cluster.local",
+    "host": "mymariadb-qujjz-mariadb.mymariadb-qujjz.svc.cluster.local",
     "dialect": "mariadb"
   },
   "production": {
-    "username": "WhB6v3gP8coMj239",
-    "password": "ITRC6vLMGVctwiUz",
+    "username": "9IzX5j0AhnI9wrJx",
+    "password": "mamrDsd6UKqUBjiu",
     "database": "mymariadb",
-    "host": "mymariadb-4ong4-mariadb.mymariadb-4ong4.svc.cluster.local",
+    "host": "mymariadb-qujjz-mariadb.mymariadb-qujjz.svc.cluster.local",
     "dialect": "mariadb"
   }
 }
